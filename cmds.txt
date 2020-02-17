@@ -1,0 +1,3 @@
+gcc -c ./src/bitmap.c -o ./obj/bitmap.o
+gcc -c main.c -o ./obj/main.o
+gcc -o main .\obj\bitmap.o .\obj\main.o
